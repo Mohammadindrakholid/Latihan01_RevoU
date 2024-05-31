@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.countainer{ 
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(4, 77, 3, 0.99);
+    height: 100vh;
+    background-image: url(gambar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+
+}
+
+.profile > img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.profile > p {
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.konten{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.konten > a {
+    text-decoration: none;
+    color: rgb(38, 27, 27);
+    text-align: center;
+    border: 3px solid rgb(23, 21, 21);
+    border-radius: 7px;
+    background: blue;
+    margin: 5px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.konten > a:hover {
+    background-color: azure;
+}
+
+.kaki{
+    text-align: center;   
+}
+
+.kaki > i {
+    color: white;
+    font-size: 20px;
+}
